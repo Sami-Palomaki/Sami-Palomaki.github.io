@@ -12,10 +12,10 @@ body {
     background-image: url('match-tausta.jpg');
     background-color: black;
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: 2000px;
     color: rgb(255, 255, 255);
     font-size: 22px;
-}
+  }
 
 .navbar {
     overflow: visible;
