@@ -10,9 +10,10 @@ h1 {
 
 body {
     background-image: url('match-tausta.jpg');
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
-    background-size: 2000px;
+    background-size: 800px;
+    background-position: top right;
     color: rgb(255, 255, 255);
     font-size: 22px;
   }
