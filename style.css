@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 22px;
   }
 
@@ -94,7 +94,7 @@ body {
     text-decoration: underline;
   }
   a:active {
-    color:        red;
+    color:       white;
     background-color: transparent;
     text-decoration: underline;
   }
