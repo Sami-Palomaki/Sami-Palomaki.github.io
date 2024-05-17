@@ -9,24 +9,23 @@ h1 {
   }
 
 body {
-    background-color: rgba(0, 0, 0, 0.5); /* Musta väri 50% läpinäkyvyydellä */
-    color: white; /* Tekstin väri valkoinen */
-    padding: 20px; /* Sisennys */
-    border-radius: 5px; /* Kulmien pyöristys */
-    max-width: 600px; /* Maksimileveys tekstilaatikolle */
-    margin: 50px auto; /* Keskittää laatikon sivulle */
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    color: rgb(255, 255, 255);
     font-size: 22px;
   }
 
 .navbar {
     overflow: visible;
-    background-color:        red;
+    background-color: #333;
   }
   
   .navbar a {
     float: left;
     font-size: 16px;
-    color:        red;
+    color: rgb(174, 148, 148);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,7 +40,7 @@ body {
     font-size: 16px;  
     border: none;
     outline: none;
-    color:        red;
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -49,7 +48,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:        red;
+    background-color: rgb(0, 0, 0);
   }
   
   .dropdown-content {
@@ -57,13 +56,13 @@ body {
     position: absolute;
     background-color: #000000;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px        red;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
     float: none;
-    color:        red;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -71,7 +70,7 @@ body {
   }
   
   .dropdown-content a:hover {
-    background-color:        red;;
+    background-color: rgb(220, 84, 84);
   }
   
   .dropdown:hover .dropdown-content {
@@ -79,22 +78,22 @@ body {
   }
 
   a:link {
-    color:        red;
+    color: green;
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color:        red;
+    color: pink;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color:        white;
+    color: rgb(174, 133, 133);
     background-color: transparent;
     text-decoration: underline;
   }
   a:active {
-    color:       white;
+    color: yellow;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -124,7 +123,7 @@ body {
   .container {
     display: flex;
     align-items: flex-start;
-    color:        red;
+    color: burlywood;
     font-size: medium;
 }
 
