@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: black;
+    color: red;
     font-size: 22px;
   }
 
@@ -89,7 +89,7 @@ body {
     text-decoration: none;
   }
   a:hover {
-    color:        red;
+    color:        white;
     background-color: transparent;
     text-decoration: underline;
   }
