@@ -20,13 +20,13 @@ body {
 
 .navbar {
     overflow: visible;
-    background-color: #333;
+    background-color:        red;
   }
   
   .navbar a {
     float: left;
     font-size: 16px;
-    color: rgb(174, 148, 148);
+    color:        red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,7 +41,7 @@ body {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: rgb(255, 255, 255);
+    color:        red;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -49,7 +49,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(0, 0, 0);
+    background-color:        red;
   }
   
   .dropdown-content {
@@ -57,13 +57,13 @@ body {
     position: absolute;
     background-color: #000000;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px        red;
     z-index: 1;
   }
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color:        red;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -71,7 +71,7 @@ body {
   }
   
   .dropdown-content a:hover {
-    background-color: rgb(220, 84, 84);
+    background-color:        red;;
   }
   
   .dropdown:hover .dropdown-content {
@@ -79,22 +79,22 @@ body {
   }
 
   a:link {
-    color: green;
+    color:        red;
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: pink;
+    color:        red;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: rgb(174, 133, 133);
+    color:        red;
     background-color: transparent;
     text-decoration: underline;
   }
   a:active {
-    color: yellow;
+    color:        red;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -124,7 +124,7 @@ body {
   .container {
     display: flex;
     align-items: flex-start;
-    color: burlywood;
+    color:        red;
     font-size: medium;
 }
 
