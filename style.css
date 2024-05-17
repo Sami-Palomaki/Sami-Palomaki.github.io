@@ -9,12 +9,12 @@ h1 {
   }
 
 body {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    background-image: url('pexels-fabianwiktor-994605.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Musta väri 50% läpinäkyvyydellä */
+    color: white; /* Tekstin väri valkoinen */
+    padding: 20px; /* Sisennys */
+    border-radius: 5px; /* Kulmien pyöristys */
+    max-width: 600px; /* Maksimileveys tekstilaatikolle */
+    margin: 50px auto; /* Keskittää laatikon sivulle */
     font-size: 22px;
   }
 
